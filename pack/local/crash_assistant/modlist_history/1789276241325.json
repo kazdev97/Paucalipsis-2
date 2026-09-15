@@ -1,0 +1,738 @@
+{
+  "schemaVersion": 2,
+  "timestamp": 1789276241325,
+  "modsCount": 46,
+  "status": "CLOSED_WITHOUT_CRASH_AFTER_JOIN",
+  "mods": [
+    {
+      "jarName": "fmlloader-1.20.1-47.4.10.jar (modloader)",
+      "modId": "forge",
+      "name": "forge",
+      "version": "fmlloader-1.20.1-47.4.10.jar",
+      "mixinConfigs": [],
+      "jarJarMods": []
+    },
+    {
+      "jarName": "another_furniture-forge-1.20.1-3.0.4.jar",
+      "modId": "another_furniture",
+      "name": "Another Furniture",
+      "version": "1.20.1-3.0.4",
+      "mixinConfigs": [
+        "another_furniture-common.mixins.json",
+        "another_furniture.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 146046967,
+      "modrinthHash": "bffc5f4d6ae0a906222990c9d0fa8a632b2aa8ed"
+    },
+    {
+      "jarName": "athena-forge-1.20.1-3.1.2.jar",
+      "modId": "athena",
+      "name": "Athena",
+      "version": "3.1.2",
+      "mixinConfigs": [
+        "athena-forge.mixins.json",
+        "athena.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 3211401917,
+      "modrinthHash": "2acee24454af859988a691f0506271a465f68f7b"
+    },
+    {
+      "jarName": "camera-forge-1.20.1-1.0.20.jar",
+      "modId": "camera",
+      "name": "Camera Mod",
+      "version": "1.20.1-1.0.20",
+      "mixinConfigs": [
+        "assets/camera/camera.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 926054541,
+      "modrinthHash": "f6f15a7c2cd66a7e702c2eacafb9b10b3e074d39"
+    },
+    {
+      "jarName": "chipped-forge-1.20.1-3.0.7.jar",
+      "modId": "chipped",
+      "name": "Chipped",
+      "version": "3.0.7",
+      "mixinConfigs": [
+        "chipped-common.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 3175573632,
+      "modrinthHash": "25ee2a0846059d8f21d28b94b7e0229b60cb5499"
+    },
+    {
+      "jarName": "connectedglass-1.1.14-forge-mc1.20.1.jar",
+      "modId": "connectedglass",
+      "name": "Connected Glass",
+      "version": "1.1.14",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3100432402,
+      "modrinthHash": "2f65edcf4faed33979d5dec81597b472abf17325"
+    },
+    {
+      "jarName": "copperagebackport-forge-1.20.1-0.1.4.jar",
+      "modId": "copperagebackport",
+      "name": "Copper-Age-Backport",
+      "version": "0.1.4",
+      "mixinConfigs": [
+        "copperagebackport.forge.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 1022674645,
+      "modrinthHash": "52d698d2b3d7e70927e1aa448528fd9d90725518"
+    },
+    {
+      "jarName": "CrashAssistant-forge-1.19-1.20.1-1.11.12.jar",
+      "modId": "crash_assistant",
+      "name": "Crash Assistant",
+      "version": "1.11.12",
+      "mixinConfigs": [],
+      "jarJarMods": [
+        {
+          "jarName": "app.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        },
+        {
+          "jarName": "crash_assistant-forge.jar",
+          "modId": "crash_assistant",
+          "name": "Crash Assistant",
+          "version": "1.11.12",
+          "mixinConfigs": [
+            "crash_assistant.mixins.json",
+            "crash_assistant-forge.mixins.json"
+          ],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        }
+      ],
+      "curseForgeHash": 3257096293,
+      "modrinthHash": "b309bd4803d5fcf27397b5ea60bbe4bb332bc809"
+    },
+    {
+      "jarName": "curios-forge-5.14.1+1.20.1.jar",
+      "modId": "curios",
+      "name": "Curios API",
+      "version": "5.14.1+1.20.1",
+      "mixinConfigs": [
+        "curios.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 1288931317,
+      "modrinthHash": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480"
+    },
+    {
+      "jarName": "doomsday_decoration-1.1.3-forge-1.20.1.jar",
+      "modId": "doomsday_decoration",
+      "name": "Doomsday Decoration",
+      "version": "1.0.0",
+      "isMCreator": true,
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 2867667355,
+      "modrinthHash": "b5250979fb0c79e8ea93742bfab9c67d4a886cad"
+    },
+    {
+      "jarName": "entityculling-forge-1.10.5-mc1.20.1.jar",
+      "modId": "entityculling",
+      "name": "EntityCulling",
+      "version": "1.10.5",
+      "mixinConfigs": [
+        "entityculling.mixins.json",
+        "entityculling.refmap.mixins.json"
+      ],
+      "jarJarMods": [
+        {
+          "jarName": "TRansition-1.0.21-1.20.1-forge-SNAPSHOT.jar",
+          "modId": "transition",
+          "name": "TRansition",
+          "version": "1.0.21",
+          "mixinConfigs": [
+            "transition.mixins.json",
+            "transition.refmap.mixins.json"
+          ],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jars/"
+        },
+        {
+          "jarName": "TRender-1.0.15-1.20.1-forge-SNAPSHOT.jar",
+          "modId": "trender",
+          "name": "TRender",
+          "version": "1.0.15",
+          "mixinConfigs": [
+            "trender.mixins.json",
+            "trender.refmap.mixins.json"
+          ],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jars/"
+        }
+      ],
+      "curseForgeHash": 4018169999,
+      "modrinthHash": "b818f6d792b79f4ec116c89704e70292bd6f72b5"
+    },
+    {
+      "jarName": "ferritecore-6.0.1-forge.jar",
+      "modId": "ferritecore",
+      "name": "Ferrite Core",
+      "version": "6.0.1",
+      "mixinConfigs": [
+        "ferritecore.modelsides.mixin.json",
+        "ferritecore.mrl.mixin.json",
+        "ferritecore.dedupbakedquad.mixin.json",
+        "ferritecore.threaddetec.mixin.json",
+        "ferritecore.blockstatecache.mixin.json",
+        "ferritecore.dedupmultipart.mixin.json",
+        "ferritecore.fastmap.mixin.json",
+        "ferritecore.predicates.mixin.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 2683111440,
+      "modrinthHash": "417fb6ce8f52abf40bd9d0390371790f9576f8ba"
+    },
+    {
+      "jarName": "forge-runiclib-1.20.1-4.3.11.jar",
+      "modId": "runiclib",
+      "name": "RunicLib",
+      "version": "4.3.11",
+      "mixinConfigs": [
+        "runiclib.forge.mixins.json",
+        "runiclib.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 2024336167,
+      "modrinthHash": "e335b99c1322e2f067e6fa09642a46f21162600d"
+    },
+    {
+      "jarName": "forge-urban_decor-1.20.1-1.0.6.jar",
+      "modId": "urban_decor",
+      "name": "Urban Decor",
+      "version": "1.0.6",
+      "mixinConfigs": [
+        "urban_decor.mixins.json",
+        "urban_decor.forge.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 4018527156,
+      "modrinthHash": "b82fad2910d037869995366bff3eb64d0c30496c"
+    },
+    {
+      "jarName": "fusion-1.3.12-forge-mc1.20.1.jar",
+      "modId": "fusion",
+      "name": "Fusion",
+      "version": "1.3.12",
+      "mixinConfigs": [
+        "fusion.mixins.json",
+        "fusion.mixins.refmap.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 597765366,
+      "modrinthHash": "6d8c30a5c031e02cd3116fbc99cf49e8301c172e"
+    },
+    {
+      "jarName": "fzzy_config-0.7.6+1.20.1+forge.jar",
+      "modId": "fzzy_config",
+      "name": "Fzzy Config",
+      "version": "0.7.6+1.20.1+forge",
+      "mixinConfigs": [],
+      "jarJarMods": [
+        {
+          "jarName": "jankson-1.2.3.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jars/"
+        },
+        {
+          "jarName": "tomlkt-jvm-0.3.7.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jars/"
+        }
+      ],
+      "curseForgeHash": 3620637257,
+      "modrinthHash": "2e9ca1c5f028c251e1bc18b9ebaa06d401c8e624"
+    },
+    {
+      "jarName": "happy_ghast-3.0.0-forge-1.20.1.jar",
+      "modId": "dried_ghast",
+      "name": "dried_ghast",
+      "version": "1.0.0",
+      "mixinConfigs": [
+        "mixins.dried_ghast.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 1649433206,
+      "modrinthHash": "2104c48f48815b0dd95febd114765482fc4f0e26"
+    },
+    {
+      "jarName": "hospitals-4.0.0-forge-1.20.1.jar",
+      "modId": "hospitals",
+      "name": "Hospitals (THM Expanded)",
+      "version": "4.0.0",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 1086534960,
+      "modrinthHash": "46c9b9eb71eeb15a4b113c3b9960c27dc0dcc7f2"
+    },
+    {
+      "jarName": "Immersive Vehicles-1.20.1-24.0.0.jar",
+      "modId": "mts",
+      "name": "Immersive Vehicles (formerly MTS)",
+      "version": "24.0.0",
+      "mixinConfigs": [
+        "mts.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 234051426,
+      "modrinthHash": "efe6962bf0304eb7ac234daa75551bf8e30ef3b7"
+    },
+    {
+      "jarName": "kotlinforforge-4.12.0-all.jar",
+      "mixinConfigs": [],
+      "jarJarMods": [
+        {
+          "jarName": "kfflang-4.12.0.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        },
+        {
+          "jarName": "kfflib-4.12.0.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        },
+        {
+          "jarName": "kffmod-4.12.0.jar",
+          "modId": "kotlinforforge",
+          "name": "Kotlin For Forge",
+          "version": "4.12.0",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        }
+      ],
+      "curseForgeHash": 2392977662,
+      "modrinthHash": "962fdb760409d6d71cbf079235f1ca94e3863a22"
+    },
+    {
+      "jarName": "L_Enders_Cataclysm-3.31.jar",
+      "modId": "cataclysm",
+      "name": "cataclysm",
+      "version": "3.31",
+      "mixinConfigs": [
+        "lionfishapi.mixins.json",
+        "cataclysm.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 3482280408,
+      "modrinthHash": "4f1165cb39521292e826b471b4808bb89f0f4f3f"
+    },
+    {
+      "jarName": "lionfishapi-3.0.jar",
+      "modId": "lionfishapi",
+      "name": "LionfishAPI",
+      "version": "3.0",
+      "mixinConfigs": [
+        "lionfishapi.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 970646236,
+      "modrinthHash": "79d0404f87fa066480b18c844c1e0b1c5f5475f9"
+    },
+    {
+      "jarName": "lootr-forge-1.20-0.7.35.94.jar",
+      "modId": "lootr",
+      "name": "Lootr",
+      "version": "0.7.35.94",
+      "mixinConfigs": [
+        "lootr.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 1036440574,
+      "modrinthHash": "1ec77a7df8adbf3290a296bf25b8f99f37a60020"
+    },
+    {
+      "jarName": "mace_port-3.0.4-1.20.1.jar",
+      "modId": "mace_port",
+      "name": "Mace Combat Backport",
+      "version": "3.0.4",
+      "mixinConfigs": [
+        "mace_port.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 63125117,
+      "modrinthHash": "c07fca32db8fe51b371cdc47e0607525e723a9cb"
+    },
+    {
+      "jarName": "mcw-bridges-3.1.2-mc1.20.1forge.jar",
+      "modId": "mcwbridges",
+      "name": "Macaw\u0027s Bridges",
+      "version": "3.1.2",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 1812838180,
+      "modrinthHash": "24f30313977ec61520a2adab321188b51c208d16"
+    },
+    {
+      "jarName": "mcw-doors-1.1.5-mc1.20.1forge.jar",
+      "modId": "mcwdoors",
+      "name": "Macaw\u0027s Doors",
+      "version": "1.1.5",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 1310853815,
+      "modrinthHash": "fe6a9eb2fbc78300a6286fd25854c9f087e689a6"
+    },
+    {
+      "jarName": "mcw-furniture-3.4.1-mc1.20.1forge.jar",
+      "modId": "mcwfurnitures",
+      "name": "Macaw\u0027s Furniture",
+      "version": "3.4.1",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3002367686,
+      "modrinthHash": "c05189646bbde5c0d4486b93de0d707115f8445c"
+    },
+    {
+      "jarName": "mcw-mcwfences-1.2.1-mc1.20.1forge.jar",
+      "modId": "mcwfences",
+      "name": "Macaw\u0027s Fences and Walls",
+      "version": "1.2.1",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 2042722927,
+      "modrinthHash": "d24bc6e1ba7f04e058db019ae5ca3d10edd9510a"
+    },
+    {
+      "jarName": "mcw-mcwstairs-1.0.2-mc1.20.1forge.jar",
+      "modId": "mcwstairs",
+      "name": "Macaw\u0027s Stairs and Balconies",
+      "version": "1.0.2",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3066463414,
+      "modrinthHash": "8f3a8271e43b53171c3a4d4827415bebd06775d9"
+    },
+    {
+      "jarName": "mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
+      "modId": "mcwwindows",
+      "name": "Macaw\u0027s Windows",
+      "version": "2.4.2",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 850156298,
+      "modrinthHash": "214da89b2153d496343bde8626283975e358edbd"
+    },
+    {
+      "jarName": "modernlife-1.20.1-1.75.jar",
+      "modId": "modernlife",
+      "name": "Modern Life",
+      "version": "1.20.1-1.75",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3268318163,
+      "modrinthHash": "6f321fd122b1d4d8f734c66fd9ac7ad8564f4cc3"
+    },
+    {
+      "jarName": "moonlight-1.20-2.16.34-forge.jar",
+      "modId": "moonlight",
+      "name": "Moonlight Library",
+      "version": "1.20-2.16.34",
+      "mixinConfigs": [
+        "moonlight.mixins.json",
+        "moonlight-common.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 1757026364,
+      "modrinthHash": "5e20f2f0ce56a534accb32f80853d5a246599a4d"
+    },
+    {
+      "jarName": "moreconcrete-1.4.7-1.20.1.jar",
+      "modId": "moreconcrete",
+      "name": "More Concrete",
+      "version": "1.4.7",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3971326391,
+      "modrinthHash": "5a8611ebcaf7a3f3a8c7579ddcba7dda24cf34b2"
+    },
+    {
+      "jarName": "MTS Official Pack-1.20.1-V29.jar",
+      "modId": "mtsofficialpack",
+      "name": "Immersive Vehicles (MTS/IV) - Official Content Pack",
+      "version": "29",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 2028430570,
+      "modrinthHash": "9307186fe7f109f0fcc8397bb4457cb956822b88"
+    },
+    {
+      "jarName": "particle_core-0.3.3+1.20.1+forge.jar",
+      "modId": "particle_core",
+      "name": "Particle Core",
+      "version": "0.3.3+1.20.1+forge",
+      "mixinConfigs": [
+        "particle_core.mixins.json"
+      ],
+      "jarJarMods": [
+        {
+          "jarName": "conditional-mixin-forge-0.6.4.jar",
+          "modId": "conditional_mixin",
+          "name": "conditional mixin",
+          "version": "0.6.4",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jars/"
+        }
+      ],
+      "curseForgeHash": 1956610132,
+      "modrinthHash": "1da5744853d17979033d5ee3cd4251b8340ea7be"
+    },
+    {
+      "jarName": "paucalipsis-1.0.0.jar",
+      "modId": "paucalipsis",
+      "name": "Paucalipsis",
+      "version": "1.0.0",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 2231923617,
+      "modrinthHash": "e7288aec13dae714092f22aa2cc3fa1f478e4575"
+    },
+    {
+      "jarName": "Platform-forge-1.20.1-1.3.4.jar",
+      "modId": "platform",
+      "name": "Platform",
+      "version": "1.3.4",
+      "mixinConfigs": [
+        "platform.mixins.json",
+        "platform-common.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 217260071,
+      "modrinthHash": "066cc06802107183d6a1028a5e358a2bfd505402"
+    },
+    {
+      "jarName": "resourcefullib-forge-1.20.1-2.1.29.jar",
+      "modId": "resourcefullib",
+      "name": "Resourceful Lib",
+      "version": "2.1.29",
+      "mixinConfigs": [],
+      "jarJarMods": [
+        {
+          "jarName": "yabn-1.0.3.jar",
+          "modId": "com_teamresourceful_yabn",
+          "name": "yabn",
+          "version": "1.0.3",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jars/"
+        },
+        {
+          "jarName": "bytecodecs-1.0.2.jar",
+          "modId": "com_teamresourceful_bytecodecs",
+          "name": "bytecodecs",
+          "version": "1.0.2",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jars/"
+        }
+      ],
+      "curseForgeHash": 4227743239,
+      "modrinthHash": "6fc590a7c56a720fec57e290cbb0a106efbb3ffa"
+    },
+    {
+      "jarName": "supermartijn642corelib-1.1.24-forge-mc1.20.1.jar",
+      "modId": "supermartijn642corelib",
+      "name": "SuperMartijn642\u0027s Core Lib",
+      "version": "1.1.24",
+      "mixinConfigs": [
+        "supermartijn642corelib.mixins.refmap.json",
+        "supermartijn642corelib.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 1882833176,
+      "modrinthHash": "866b07e2eb5addbc4a191b7b5ea6aae492ca9905"
+    },
+    {
+      "jarName": "supplementaries-1.20-3.1.43-forge.jar",
+      "modId": "supplementaries",
+      "name": "Supplementaries",
+      "version": "1.20-3.1.43",
+      "mixinConfigs": [
+        "supplementaries-common.mixins.json",
+        "supplementaries.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 1988549846,
+      "modrinthHash": "326d65a29981de28016e3828370d68a8f63e1798"
+    },
+    {
+      "jarName": "tacz-1.20.1-1.1.8-hotfix.jar",
+      "modId": "tacz",
+      "name": "Timeless \u0026 Classics Guns: Zero",
+      "version": "1.1.8-hotfix",
+      "mixinConfigs": [
+        "tacz.compat.acceleratedrendering.mixins.json",
+        "tacz.mixins.json"
+      ],
+      "jarJarMods": [
+        {
+          "jarName": "simplebedrockmodel-2.2.2-forge+mc1.20.1.jar",
+          "modId": "simplebedrockmodel",
+          "name": "SimpleBedrockModel",
+          "version": "2.2.2-forge+mc1.20.1",
+          "mixinConfigs": [
+            "simplebedrockmodel.mixins.json"
+          ],
+          "jarJarMods": [
+            {
+              "jarName": "mae-1.1.2.jar",
+              "mixinConfigs": [],
+              "jarJarMods": [],
+              "pathFromJarJar": "/META-INF/jarjar/"
+            }
+          ],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        },
+        {
+          "jarName": "commons-math3-3.6.1.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        },
+        {
+          "jarName": "luaj-core-3.0.8-figura.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        },
+        {
+          "jarName": "luaj-jse-3.0.8-figura.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        },
+        {
+          "jarName": "bcel-6.6.1.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        }
+      ],
+      "curseForgeHash": 969230376,
+      "modrinthHash": "bddafeea4c9c1132ed720c30fbaedfe5ab25e846"
+    },
+    {
+      "jarName": "tacz-tweaks-2.14.2-all.jar",
+      "modId": "tacztweaks",
+      "name": "TaCZ Tweaks",
+      "version": "2.14.2",
+      "mixinConfigs": [
+        "tacztweaks.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 1873821720,
+      "modrinthHash": "f7393848203a31a3b9ab592c51e1a2e59dce7a2a"
+    },
+    {
+      "jarName": "traffic_control_roadsmodbyteerth-5.5.0-forge-1.20.1.jar",
+      "modId": "traffic_control_roadsmodbyteerth",
+      "name": "Teerth\u0027s Traffic Control Mod",
+      "version": "5.5.0",
+      "isMCreator": true,
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 1190808625,
+      "modrinthHash": "56dff5c97037a5248f50e0ec2476dd7048674ddc"
+    },
+    {
+      "jarName": "Trapcraft-1.20.1-2.10.2.jar",
+      "modId": "trapcraft",
+      "name": "Trapcraft",
+      "version": "2.10.2",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 305620696,
+      "modrinthHash": "9d24eb4eb22be2d391de2e716e90aab2b924e1df"
+    },
+    {
+      "jarName": "VanillaBackport-forge-1.20.1-1.1.7.10.jar",
+      "modId": "vanillabackport",
+      "name": "VanillaBackport",
+      "version": "1.1.7.10",
+      "mixinConfigs": [
+        "vanillabackport.mixins.json",
+        "vanillabackport.forge.mixins.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 3913788548,
+      "modrinthHash": "a5ca598c0badd4b37a7b133ae8d2d9bf4cc20c40"
+    },
+    {
+      "jarName": "yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+      "modId": "yet_another_config_lib_v3",
+      "name": "YetAnotherConfigLib",
+      "version": "3.6.6+1.20.1-forge",
+      "mixinConfigs": [
+        "yacl.mixins.json",
+        "yacl-fabric.mixins.json"
+      ],
+      "jarJarMods": [
+        {
+          "jarName": "common-image-3.12.0.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        },
+        {
+          "jarName": "common-io-3.12.0.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        },
+        {
+          "jarName": "common-lang-3.12.0.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        },
+        {
+          "jarName": "gson-0.2.1.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        },
+        {
+          "jarName": "imageio-core-3.12.0.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        },
+        {
+          "jarName": "imageio-metadata-3.12.0.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        },
+        {
+          "jarName": "imageio-webp-3.12.0.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        },
+        {
+          "jarName": "json-0.2.1.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        }
+      ],
+      "curseForgeHash": 2226879195,
+      "modrinthHash": "644731e321c53a35a0b3177a3cc6347fe38002f4"
+    }
+  ]
+}

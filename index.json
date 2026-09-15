@@ -1,0 +1,10 @@
+[{
+  "name": "Paucalipsis 2",
+  "description": "Modpack de Paucalipsis 2",
+  "game_version": "1.20.1",
+  "loader": "forge",
+  "loader_version": "47.4.10",
+  "github_repo": "kazdev97/Paucalipsis-2",
+  "github_path": "pack",
+  "github_branch": "main"
+}]
