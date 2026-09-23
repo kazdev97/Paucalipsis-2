@@ -4,6 +4,8 @@
   "game_version": "1.20.1",
   "loader": "forge",
   "loader_version": "47.4.10",
+  "ram_min_mb": 6144,
+  "ram_max_mb": 8192,
   "github_repo": "kazdev97/Paucalipsis-2",
   "github_path": "pack",
   "github_branch": "main"
