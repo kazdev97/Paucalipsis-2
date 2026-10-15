@@ -1,0 +1,25 @@
+#Enables additional diagnostic logging for Doomsday Functionality.
+debugMode = false
+#Number of Minecraft days between loot refreshes
+#Range: 1 ~ 365
+lootRefreshDays = 1
+#Block IDs that can NOT be looted. Add a block's registry name here to globally turn off its looting capability for that block type.
+#Example: ["doomsday_decoration:atm", "doomsday_decoration:safe"]
+lootBlacklist = []
+
+[blockBehavior]
+	#Default breaking behavior for supported loot/storage blocks.
+	#BREAKABLE: normal behavior and normal block drops.
+	#UNBREAKABLE: players and explosions cannot break the block.
+	#NO_DROP: the block is removed but drops neither itself nor stored contents.
+	#Allowed Values: BREAKABLE, UNBREAKABLE, NO_DROP
+	defaultBreakMode = "BREAKABLE"
+	#Per-block exceptions to defaultBreakMode, written as block_id=mode.
+	#Valid modes: BREAKABLE, UNBREAKABLE, NO_DROP
+	#Example: ["doomsday_decoration:atm=UNBREAKABLE", "doomsday_decoration:safe=NO_DROP"]
+	breakModeOverrides = []
+	#Supported block IDs that act as persistent 27-slot storage instead of refreshing loot.
+	#Storage blocks open even while empty and allow players to insert items.
+	#Example: ["doomsday_decoration:woodencrate", "doomsday_decoration:metalcabinet"]
+	storageBlocks = []
+

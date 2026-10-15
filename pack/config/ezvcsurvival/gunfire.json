@@ -1,0 +1,1955 @@
+{
+  "enabled": true,
+  "mobs": {
+    "cataclysm:maledictus": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "dyairdrop:medicalairdrop": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:froststalker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:giant": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:coral_golem": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "dyairdrop:transportplane": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:snow_leopard": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:lobster": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:seagull": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:moose": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:seal": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:glow_squid": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:shoebill": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:farseer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:roadrunner": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:laviathan": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:trader_llama": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:amethyst_crab": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:warden": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:endergrade": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:warped_mosco": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:horse": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "immersiveengineering:commando": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "hordes:zombie_player": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "paucalipsis:doctora_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:llama": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:husk": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:maned_wolf": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "mutantszombies:split_head_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:cave_spider": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:skreecher": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:ender_guardian": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:deepling_warlock": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:tadpole": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:enderman": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:dolphin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:gelada_monkey": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:komodo_dragon": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:hammerhead_shark": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:dropbear": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:donkey": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:tiger": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:grizzly_bear": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:ghast": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:murmur_head": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:ignited_berserker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mutantmonsters:mutant_skeleton": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "hospitals:nurse": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:the_leviathan": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:piglin_brute": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:creeper": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:bee": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:devils_hole_pupfish": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:the_baby_leviathan": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:illusioner": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:crocodile": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "radiotowers:planeentity": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:deepling_brute": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:triops": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:rhinoceros": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:mooshroom": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:frilled_shark": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:bison": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:stray": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mutantszombies:crawler": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:bald_eagle": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:drowned": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:axolotl": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:blobfish": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:mimicube": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:gorilla": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "hospitals:doctor": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:void_worm": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:tusklin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "dried_ghast:ghastling": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:strider": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:guardian": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:parrot": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "dyairdrop:smallairdrop": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:scylla": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:cosmic_cod": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:wither": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:underminer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:centipede_head": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:the_watcher": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:wandering_trader": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "vinery:mule": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:wither_skeleton": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:frog": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:kangaroo": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:banana_slug": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "mutantmonsters:mutant_creeper": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:mimic_octopus": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "mutantszombies:mutant_brute": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:hummingbird": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:elder_guardian": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:bunfungus": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:netherite_monstrosity": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mutantmonsters:mutant_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:void_worm_part": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:wadjet": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "hordes:drowned_player": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:mule": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:cindaria": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "vinery:wandering_winemaker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:crow": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:vindicator": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "zombie_extincion:rompe_muros": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "dyairdrop:plane": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:flying_fish": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "mutantszombies:blister_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "trapcraft:dummy": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:guster": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:evoker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:slime": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:pufferfish": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:tarantula_hawk": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:fox": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:cachalot_whale": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:allay": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:endermaptera": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "immersiveengineering:bulwark": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:lionfish": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:koboleton": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:coralssus": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:silverfish": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:warped_toad": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:endermite": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:chicken": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:giant_squid": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:zombie": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "immersiveengineering:fusilier": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:emu": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:cockroach": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:elite_draugr": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:flutter": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:hippocamtus": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:hoglin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:the_harbinger": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "radiotowers:airdropentity": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:terrapin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:deepling_angler": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:capuchin_monkey": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "hordes:husk_player": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:anaconda": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:draugr": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:polar_bear": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:phantom": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:zombified_piglin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:witch": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:pig": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:turtle": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:alligator_snapping_turtle": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:sheep": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:ender_dragon": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mutantszombies:mutant_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:goat": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:vex": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:rattlesnake": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "zombie_extincion:resonante": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mutantmonsters:mutant_enderman": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:cod": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:skeleton": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:mantis_shrimp": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:bone_serpent_part": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:raccoon": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "dried_ghast:happy_ghast": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:ravager": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:platypus": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:clawdian": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:squid": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:bone_serpent": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:skeleton_horse": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "mutantmonsters:spider_pig": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:potoo": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:cow": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:creaking": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:rocky_roller": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:fly": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "dyairdrop:weaponairdrop": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:drowned_host": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:soul_vulture": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:blue_jay": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:straddler": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:toucan": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:salmon": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:ignis": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:sea_bear": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "dyairdrop:airdrop": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:shulker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:anteater": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:mudskipper": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:sulfur_cube": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:rain_frog": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "eyesinthedarkness:eyes": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:ender_golem": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:sugar_glider": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "supplementaries:red_merchant": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:rabbit": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "mutantszombies:zombie_brute": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:crimson_mosquito": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:pillager": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:murmur": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:zoglin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mutantszombies:rotten_mutant": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:orca": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:happy_ghast": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:leafcutter_ant": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "butchery:turtleshellboat": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:mungus": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:jerboa": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:bat": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:caiman": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:spectre": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:cosmaw": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:netherite_ministrosity": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:kobolediator": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:catfish": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:deepling_priest": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:comb_jelly": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "mutantmonsters:endersoul_clone": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:piglin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mutantszombies:spitter": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:skelewag": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:ignited_revenant": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:blaze": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "zombie_extincion:devastador": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:elephant": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:gazelle": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:sniffer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:skunk": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:enderiophage": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:zombie_horse": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:sunbird": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:camel": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:magma_cube": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:royal_draugr": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:spider": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:deepling": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexsmobs:tasmanian_devil": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:ancient_remnant": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:cat": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexsmobs:stradpole": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:tropical_fish": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:the_prowler": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:aptrgangr": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:ocelot": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:modern_remnant": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "cataclysm:urchinkin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "minecraft:armadillo": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:wolf": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:panda": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "minecraft:zombie_villager": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cataclysm:symbiocto": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "paucalipsis:paufuture": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "tfc:bluegill": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:crappie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:lake_trout": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:largemouth_bass": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:rainbow_trout": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:salmon": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:smallmouth_bass": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:cod": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:tropical_fish": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:pufferfish": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:jellyfish": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:isopod": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:lobster": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:crayfish": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:horseshoe_crab": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:dolphin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:orca": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:manatee": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:squid": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:octopoteuthis": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:turtle": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:penguin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:frog": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:polar_bear": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:grizzly_bear": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:black_bear": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:cougar": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:panther": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:lion": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:sabertooth": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:tiger": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:crocodile": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:wolf": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:hyena": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:direwolf": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:pig": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:cow": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:goat": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:yak": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:alpaca": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:sheep": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:musk_ox": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:chicken": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:duck": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:quail": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:rabbit": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:fox": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:panda": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:ocelot": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:deer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:caribou": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:bongo": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:gazelle": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:grouse": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:pheasant": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:turkey": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:peafowl": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:boar": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:moose": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:wildebeest": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:rat": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:donkey": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:mule": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:horse": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:cat": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "tfc:dog": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "mowziesmobs:foliaath": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mowziesmobs:baby_foliaath": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mowziesmobs:ferrous_wroughtnaut": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mowziesmobs:umvuthana_follower_raptor": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mowziesmobs:umvuthana_follower_player": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mowziesmobs:umvuthana_crane_player": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mowziesmobs:umvuthana": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mowziesmobs:umvuthana_raptor": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mowziesmobs:umvuthana_crane": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mowziesmobs:umvuthi": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mowziesmobs:frostmaw": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mowziesmobs:grottol": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mowziesmobs:lantern": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "mowziesmobs:naga": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mowziesmobs:bluff": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mowziesmobs:elokosa_follower_howler": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mowziesmobs:elokosa_howler": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "pretension:spectral_guard": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "pretension:chained_spectre": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "pretension:dread_golem": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "pretension:sharp_hound": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "pretension:spectral_mage": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "pretension:ruined_spectre": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "pretension:dread_stalker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "pretension:dread_specimen": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "pretension:dreadparent": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "pretension:basalt_ghast": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "pretension:felled_knight": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "pretension:spectral_bard": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "pretension:bardcorpsesongtrigger": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "pretension:gab_npc": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "pretension:frosbee_npc": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "pretension:dre_npc": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "pretension:mother_sharp_hound": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "mcb:worm_boss_head": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:worm_boss_body_1": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:worm_boss_body_2": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:worm_boss_body_3": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:worm_boss_body_4": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:worm_boss_body_5": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:worm_boss_body_6": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:worm_boss_body_7": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:worm_boss_body_8": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:worm_boss_body_9": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:phantom_paladin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:phantom_sword": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:phantom_dash": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:phantom_blast": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:infernal_arrow": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:phantom_totem": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:phantom_circle": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:skeletal_sorceror": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:red_skull": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:mrdr_follower": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:lady_demise": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:premature_death_sentence_ascender": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:ancient_ent": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:dread_doctor": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:undead_knight": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:king_piece": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:rook_piece": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:bishop_piece": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:pawn_piece": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:knight_piece": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:dummy_piece": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:king_piece_soul": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:spectral_cacoffiny": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "mcb:will_spawn": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "cgmbandits:bandit": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    }
+  }
+}

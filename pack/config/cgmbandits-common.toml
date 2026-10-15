@@ -1,0 +1,15 @@
+
+[AggroSettings]
+	#If true, Bandits will attack other hostile mobs (Monsters).
+	banditsAttackMonsters = true
+	#If true, other hostile mobs (Monsters) will attack Bandits.
+	monstersAttackBandits = true
+	#Chance for bandits to drop their weapon on death (0.0 to 1.0). Default is 0.05 (5%).
+	#Range: 0.0 ~ 1.0
+	dropChance = 0.05
+	#If true, bandits have a chance to spawn with attachments on their guns.
+	enableAttachments = true
+	#Chance for a bandit to spawn with an attachment per slot (0.0 to 1.0). Default is 0.2 (20%).
+	#Range: 0.0 ~ 1.0
+	attachmentChance = 0.2
+

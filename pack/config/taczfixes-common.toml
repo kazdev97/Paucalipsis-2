@@ -1,0 +1,660 @@
+
+[gun_level]
+	#枪械的等级上限。默认值：500
+	#Range: 1 ~ 10000
+	max_level = 500
+	#从0级到1级所需的击杀数。默认值：1
+	#Range: 1 ~ 100000
+	base_kills = 1
+	#每升1级，升级额外所需的击杀数。默认值：5
+	#Range: 0 ~ 100000
+	level_increment = 5
+	#是否启用铁砧使用附魔之瓶为枪械增加经验。默认值：true
+	bottle_enabled = true
+	#每瓶附魔之瓶增加的枪械经验值。默认值：5
+	#Range: 1 ~ 10000
+	bottle_exp_per_bottle = 5
+	#铁砧使用附魔之瓶消耗的玩家经验等级。默认值：1
+	#Range: 0 ~ 100
+	bottle_cost = 1
+
+[stepless_zoom]
+	#是否启用瞄具无极变倍功能。默认值：true
+	enabled = true
+	#按住 Ctrl 滚动滚轮时，倍率调整速度的倍率。默认值：4
+	#Range: 1.0 ~ 10.0
+	zoom_ctrl_multiplier = 4.0
+	#按住 Alt 滚动滚轮时，倍率调整速度的倍率。默认值：0.25
+	#Range: 0.1 ~ 1.0
+	zoom_alt_multiplier = 0.25
+
+[limb_damage_multiplier]
+
+	[limb_damage_multiplier.player]
+		#玩家在站立时，碰撞箱低于此高度的部分将视为四肢。默认值：0.8
+		#Range: 0.0 ~ 1.0
+		limb_threshold_standing = 0.8
+		#玩家在潜行时，碰撞箱低于此高度的部分将视为四肢。默认值：0.6
+		#Range: 0.0 ~ 1.0
+		limb_threshold_sneaking = 0.6
+
+	[limb_damage_multiplier.gun_types]
+		#默认的四肢伤害倍率。默认值：0.6
+		#Range: 0.0 ~ 1.0
+		default = 0.6
+		#手枪的默认四肢伤害倍率。默认值：0.6
+		#Range: 0.0 ~ 1.0
+		pistol = 0.6
+		#步枪的默认四肢伤害倍率。默认值：0.6
+		#Range: 0.0 ~ 1.0
+		rifle = 0.6
+		#狙击枪的默认四肢伤害倍率。默认值：0.7
+		#Range: 0.0 ~ 1.0
+		sniper = 0.7
+		#霰弹枪的默认四肢伤害倍率。默认值：0.8
+		#Range: 0.0 ~ 1.0
+		shotgun = 0.8
+		#冲锋枪的默认四肢伤害倍率。默认值：0.5
+		#Range: 0.0 ~ 1.0
+		smg = 0.5
+		#重型武器的默认四肢伤害倍率。默认值：0.8
+		#Range: 0.0 ~ 1.0
+		rpg = 0.8
+		#机枪的默认四肢伤害倍率。默认值：0.7
+		#Range: 0.0 ~ 1.0
+		mg = 0.7
+		#其他类型枪械的默认四肢伤害倍率。默认值：0.6
+		#Range: 0.0 ~ 1.0
+		other = 0.6
+
+	[limb_damage_multiplier.mobs]
+		#是否对非玩家实体启用四肢伤害倍率。默认值：true
+		enabled = true
+		#生物的碰撞箱的下半部分按此比例视为四肢。默认值：0.4
+		#Range: 0.0 ~ 1.0
+		threshold = 0.4
+		#禁用四肢伤害倍率的实体列表。
+		#Example: ["minecraft:ender_dragon"]
+		excluded = ["minecraft:ender_dragon"]
+
+[recoil_modifier]
+	#是否启用首发后坐力倍率。默认值：false
+	enabled = false
+	#距离上次开火的时间超出此数值后开火，将视为首次开火。默认值：200
+	#Range: 0 ~ 10000
+	window_ms = 200
+	#非首次开火的后坐力倍率。默认值：1.0
+	#Range: 0.0 ~ 1.0
+	factor = 1.0
+	#首次开火的竖直后坐力倍率。默认值：3.0
+	#Range: 1.0 ~ 10.0
+	pause_factor_pitch = 3.0
+	#首次开火的水平后坐力倍率。默认值：1.5
+	#Range: 1.0 ~ 10.0
+	pause_factor_yaw = 1.5
+	#触发首发后坐力倍率所需的最小射速。默认值：300
+	#Range: 0 ~ 1200
+	min_rpm = 300
+	#禁用首发后坐力倍率的枪械列表。
+	#Example: ["rfp:m2hb", "rfp:dshkm"]
+	disabled_guns = ["rfp:m2hb", "rfp:dshkm"]
+
+[inaccuracy_modifier]
+	#是否启用连射惩罚。默认值：false
+	enabled = false
+	#每次开火增加的散布比例。默认值：0.03
+	#Range: 0.0 ~ 1.0
+	increment = 0.03
+	#每次开火增加的散布。默认值：0.02
+	#Range: 0.0 ~ 10.0
+	flat_increment = 0.02
+	#连射惩罚的最大应用次数。默认值：30
+	#Range: 0 ~ 1000
+	max_stacks = 30
+	#距离上次开火时间超出此数值后将开始回正散布。默认值：200
+	#Range: 0 ~ 10000
+	decay_delay_ms = 200
+	#回正散布的速度。默认值：0.1
+	#Range: 0.0 ~ 1.0
+	decay = 0.1
+
+[bullet_ricochet]
+	#是否启用跳弹。默认值：true
+	enable = true
+	#跳弹所需的最小入射角。默认值：60
+	#Range: 0.0 ~ 90.0
+	min_angle = 60.0
+	#超出此入射角后跳弹概率等同于最大跳弹概率。默认值：90
+	#Range: 0.0 ~ 90.0
+	max_angle = 90.0
+	#以跳弹所需的最小入射角撞击方块时发生跳弹的概率。默认值：0
+	#Range: 0.0 ~ 1.0
+	chance_min = 0.0
+	#最大跳弹概率。默认值：1
+	#Range: 0.0 ~ 1.0
+	chance_max = 1.0
+	#子弹碰撞方块时，会发生跳弹的方块列表。
+	#Example: ["minecraft:mineable/pickaxe"]
+	block_tags = ["minecraft:mineable/pickaxe"]
+	#禁用跳弹的枪械列表。
+	#Example: ["ts:c4"]
+	disabled_guns = ["ts:c4"]
+	#子弹发生跳弹后造成伤害的倍率。默认值：0.2
+	#Range: 0.0 ~ 1.0
+	damage_multiplier = 0.2
+	#每次跳弹时，反射角的余角与入射角的余角之比的最小值。默认值：0.2
+	#Range: 0.0 ~ 1.0
+	reflect_angle_ratio_min = 0.2
+	#每次跳弹时，反射角的余角与入射角的余角之比的最大值。默认值：0.8
+	#Range: 0.0 ~ 1.0
+	reflect_angle_ratio_max = 0.8
+	#是否允许子弹在命中方块顶面或底面时发生跳弹。默认值：false
+	top_bottom_enable = false
+
+[recoil_knockback]
+	#是否启用开火击退。默认值：false
+	enable = false
+	#开火击退的力度大小。默认值：0.01
+	#Range: 0.0 ~ 1.0
+	multiplier = 0.01
+	#潜行时开火击退的力度大小。默认值：0.005
+	#Range: 0.0 ~ 1.0
+	sneak_multiplier = 0.005
+	#半自动模式的开火击退力度倍率。默认值：4
+	#Range: 1.0 ~ 10.0
+	semi_factor = 4.0
+
+[misc]
+
+	[misc.refit_toast]
+		#改装界面提示文字的显示时长（毫秒）。默认值：1000
+		#Range: 100 ~ 10000
+		duration_ms = 1000
+		#改装界面提示文字开始淡出的时长（毫秒）。默认值：500
+		#Range: 0 ~ 5000
+		fade_ms = 500
+
+	[misc.refit_view_zoom]
+		#改装视角模式下，滚轮缩放的最小倍率。默认值：0.5
+		#Range: 0.05 ~ 1.0
+		min_zoom = 0.5
+		#改装视角模式下，滚轮缩放的最大倍率。默认值：4
+		#Range: 1.0 ~ 100.0
+		max_zoom = 4.0
+
+	[misc.refit_button]
+		#改装界面按钮（查看当前改装/保存当前方案/加载改装方案）背景的不透明度。0=全透明，1=不透明。默认值：0.45
+		#Range: 0.0 ~ 1.0
+		opacity = 0.45
+
+	[misc.refit_point]
+		#配件改装点数的全局默认消耗。data中未填写refit_point_consume字段的配件使用此值。默认值：0
+		#Range: 0 ~ 100
+		default_consume = 0
+
+	[misc.burst_fire]
+		#禁用连发模式的配件列表。
+		#Example: ["ccrp:ammo_mod_hap"]
+		burst_block_attachments = ["ccrp:ammo_mod_hap"]
+
+	[misc.explosion]
+		#爆炸击退是否仅对子弹生效。默认值：true
+		bullet_only = false
+
+	[misc.peek_aim]
+		#是否启用探头自动开镜。默认值：true
+		#需要GD656Peek模组。
+		auto_aim_when_peeking = false
+
+	[misc.unpierceable]
+		#子弹无法穿透的实体列表。
+		#Example: ["irons_spellbooks:shield"]
+		entities = ["irons_spellbooks:shield"]
+
+	[misc.damage]
+		#降低指定实体所受子弹伤害的列表。格式: "entity_id,reduction"
+		#"entity_id"为其命名空间id，"reduction"为其降低伤害的比例。
+		entities = ["irons_spellbooks:shield,0.95"]
+		#子弹命中实体后，此子弹是否在一定时间内忽略此实体。默认值：true
+		ignore_damaged_entity_enable = true
+		#子弹命中实体后，此子弹忽略此实体的时间。默认值：5000
+		#Range: 0 ~ 600000
+		ignore_damaged_entity_cooldown_ms = 5000
+
+	[misc.debug]
+		#禁用实体碰撞箱显示。默认值：false
+		disable_hitboxes = false
+		#禁用切换第三人称视角。默认值：false
+		disable_third_person = false
+
+[compat]
+	#是否在使用非筒状瞄具时禁用镜内放大。默认值：true
+	#需要TaCZ: Arcana模组。
+	disable_arcana_magnification_for_sight = true
+	#在热成像瞄具视野内隐藏的粒子列表，使用粒子ID，如lrtactical:smoke_cloud。
+	#需要TaCZ: Arcana模组。
+	hide_particles_in_arcana_thermal = ["lrtactical:smoke_cloud"]
+	#滑铲时，应用移动时而非爬行时的腰射散布。默认值：true
+	#需要ParCool模组。
+	parcool_slide_as_move_inaccuracy = true
+	#子弹穿透实体后是否失去追踪。默认值：true
+	#需要GunsmithLib模组的追踪功能。
+	disable_tracking_after_penetration = true
+	#玩家探头时，从碰撞箱顶部起视为头部的格数。默认值：0.6
+	#需要GD656Peek模组。
+	#Range: 0.0 ~ 1.0
+	peek_headshot_height = 0.6
+	#开镜是否强制打断疾跑。默认值：true
+	ads_interrupt_sprint = true
+	#据枪时是否阻止疾跑恢复，防止疾跑反复打断导致画面抽搐。默认值：true
+	#需要TaCZ Tweaks模组。
+	prevent_sprint_reengage_when_tilt = true
+
+[gun_enchantment]
+	#是否启用枪械附魔。默认值：true
+	enabled = true
+	#枪械的附魔能力值。默认值：25
+	#Range: 1 ~ 100
+	enchantment_value = 25
+	#允许的附魔列表。
+	whitelist = ["minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:fortune", "minecraft:efficiency", "minecraft:silk_touch", "minecraft:sweeping_edge", "minecraft:power", "minecraft:punch", "minecraft:flame", "minecraft:infinity", "minecraft:loyalty", "minecraft:impaling", "minecraft:channeling", "minecraft:piercing", "minecraft:multishot", "minecraft:riptide", "minecraft:quick_charge", "minecraft:unbreaking", "minecraft:mending", "minecraft:vanishing_curse", "taczfixes:overload", "taczfixes:annihilation", "taczfixes:stability", "taczfixes:anti_gravity", "taczfixes:electromagnetic_coil", "taczfixes:standard_ammo", "taczfixes:neurotoxin", "taczfixes:chain_explosion", "taczfixes:preemptive_strike", "taczfixes:collector", "taczfixes:explosion_expert", "taczfixes:life_leech", "taczfixes:sniper_elite", "taczfixes:pandora_paradox", "taczfixes:smart_scope", "taczfixes:deep_learning", "taczfixes:equalizer", "taczfixes:random", "taczfixes:decapitation", "taczfixes:charge"]
+	#是否允许冲突附魔同时存在。
+	#默认值：true
+	ignore_conflicts = true
+
+	[gun_enchantment.common]
+		#力量：每级提升的子弹伤害倍率。默认值：0.1
+		#Range: 0.0 ~ 10.0
+		power_damage_multiplier_per_level = 0.1
+		#亡灵杀手：每级提升的对亡灵生物的子弹伤害倍率。默认值：0.25
+		#Range: 0.0 ~ 10.0
+		smite_damage_multiplier_per_level = 0.25
+		#节肢杀手：每级提升的对节肢生物的子弹伤害倍率。默认值：0.25
+		#Range: 0.0 ~ 10.0
+		bane_of_arthropods_damage_multiplier_per_level = 0.25
+		#穿刺：每级提升的对水生生物的子弹伤害倍率。默认值：0.25
+		#Range: 0.0 ~ 10.0
+		impaling_damage_multiplier_per_level = 0.25
+		#火矢：每级增加的燃烧时间。默认值：20
+		#Range: 0 ~ 1200
+		flame_ignite_ticks_per_level = 20
+		#穿透：每级增加的穿透实体数量。默认值：1
+		#Range: 0 ~ 50
+		pierce_per_level = 1
+		#耐久：每次开火时，每级不消耗子弹的概率。默认值：0.15
+		#Range: 0.0 ~ 1.0
+		unbreaking_no_consume_chance_per_level = 0.15
+		#经验修补：每次击杀后补充到弹匣的子弹数量。默认值：1
+		#Range: 0 ~ 64
+		mending_ammo_per_kill = 1
+		#锋利：每级提升的近战伤害。默认值：2
+		#Range: 0.0 ~ 100.0
+		sharpness_melee_damage_per_level = 2.0
+		#横扫之刃：每级提升的近战距离倍率。默认值：0.25
+		#Range: 0.0 ~ 10.0
+		sweeping_distance_multiplier_per_level = 0.25
+		#火焰附加：每级增加的近战攻击点燃实体时间。默认值：80
+		#Range: 0 ~ 1200
+		fire_aspect_melee_ticks_per_level = 80
+		#快速装填：每级减少的换弹时间。默认值：0.1
+		#Range: 0.0 ~ 0.9
+		quick_charge_reload_time_reduction_per_level = 0.1
+		#时运：每级必定爆头的概率。默认值：25
+		#Range: 0.0 ~ 100.0
+		fortune_headshot_chance_percent_per_level = 25.0
+
+	[gun_enchantment.punch]
+		#冲击：每级提升的子弹击退倍率。默认值：0.5
+		#Range: 0.0 ~ 10.0
+		punch_knockback_multiplier_per_level = 0.5
+		#冲击：每级增加的子弹击退力度。默认值：0.5
+		#Range: 0.0 ~ 100.0
+		punch_knockback_flat_per_level = 0.5
+
+	[gun_enchantment.knockback]
+		#击退：每级提升的近战击退倍率。默认值：0.5
+		#Range: 0.0 ~ 10.0
+		knockback_melee_multiplier_per_level = 0.5
+		#击退：每级增加的近战击退力度。默认值：2
+		#Range: 0.0 ~ 100.0
+		knockback_melee_flat_per_level = 2.0
+
+	[gun_enchantment.channeling]
+		#引雷：冷却时间。默认值：5000
+		#Range: 0 ~ 600000
+		channeling_cooldown_ms = 5000
+		#引雷：触发概率。默认值：0.3
+		#Range: 0.0 ~ 1.0
+		channeling_trigger_chance = 0.3
+		#引雷：是否仅在雷暴天气触发。默认值：false
+		channeling_only_in_thunder = false
+
+	[gun_enchantment.loyalty]
+		#忠诚：每级增加的自动锁定距离，需要GunsmithLib。默认值：80
+		#Range: 0 ~ 10000
+		loyalty_aim_lock_range_per_level = 80
+		#忠诚：每级增加的自动锁定角度，需要GunsmithLib。默认值：5
+		#Range: 0 ~ 1000
+		loyalty_aim_lock_angle_per_level = 5
+
+	[gun_enchantment.multishot]
+		#多重射击：每次触发额外发射的弹丸数量。默认值：2
+		#Range: 1 ~ 10
+		multishot_extra_projectiles = 2
+		#多重射击：每级触发概率。默认值：0.3
+		#Range: 0.0 ~ 1.0
+		multishot_trigger_chance_per_level = 0.3
+		#多重射击：额外弹丸的偏转角度。默认值：10
+		#Range: 0.0 ~ 45.0
+		multishot_spread_angle = 10.0
+		#多重射击：冷却时间。默认值：200
+		#Range: 0 ~ 600000
+		multishot_cooldown_ms = 200
+
+	[gun_enchantment.riptide]
+		#激流：每级提升的子弹飞行速度倍率。默认值：0.5
+		#Range: 0.0 ~ 10.0
+		riptide_speed_multiplier_per_level = 0.5
+		#激流：每级提升的子弹伤害倍率。默认值：0.25
+		#Range: 0.0 ~ 10.0
+		riptide_damage_multiplier_per_level = 0.25
+
+	[gun_enchantment.efficiency]
+		#效率：每级提升的射速。默认值：3%
+		#Range: 0.0 ~ 100.0
+		efficiency_fire_rate_percent_per_level = 3.0
+		#效率：每级缩减的栓动拉栓时长。默认值：3%
+		#Range: 0.0 ~ 90.0
+		efficiency_bolt_time_reduction_percent_per_level = 3.0
+
+	[gun_enchantment.overload]
+		#过载：每级增加的伤害。默认值：50%
+		#Range: 0.0 ~ 1000.0
+		overload_damage_percent = 50.0
+		#过载：附魔的最大等级。默认值：4
+		#Range: 1 ~ 10
+		overload_max_level = 4
+		#过载：经验等级乘数。
+		#默认值：4
+		#Range: 1 ~ 100
+		overload_cost_multiplier = 4
+
+	[gun_enchantment.annihilation]
+		#湮灭：每级额外造成的虚空伤害。默认值：10%
+		#Range: 0.0 ~ 1000.0
+		annihilation_damage_percent_per_level = 10.0
+		#湮灭：附魔的最大等级。默认值：3
+		#Range: 1 ~ 10
+		annihilation_max_level = 3
+		#湮灭：经验等级乘数。默认值：4
+		#Range: 1 ~ 100
+		annihilation_cost_multiplier = 4
+
+	[gun_enchantment.stability]
+		#稳定：每级降低的后坐力。默认值：15%
+		#Range: 0.0 ~ 100.0
+		stability_recoil_reduction_per_level = 15.0
+		#稳定：附魔的最大等级。默认值：5
+		#Range: 1 ~ 10
+		stability_max_level = 5
+		#稳定：经验等级乘数。默认值：1
+		#Range: 1 ~ 100
+		stability_cost_multiplier = 1
+
+	[gun_enchantment.anti_gravity]
+		#反重力：附魔的最大等级。默认值：1
+		#Range: 1 ~ 10
+		anti_gravity_max_level = 1
+		#反重力：经验等级乘数。默认值：4
+		#Range: 1 ~ 100
+		anti_gravity_cost_multiplier = 4
+
+	[gun_enchantment.electromagnetic_coil]
+		#电磁线圈：每级提升的子弹速度。默认值：50%
+		#Range: 0.0 ~ 1000.0
+		electromagnetic_coil_speed_percent = 50.0
+		#电磁线圈：每级降低的散布%。默认值：25%
+		#Range: 0.0 ~ 100.0
+		electromagnetic_coil_spread_reduction_percent = 25.0
+		#电磁线圈：命中实体触发雷电伤害的概率。默认值：5%
+		#Range: 0.0 ~ 100.0
+		electromagnetic_coil_lightning_chance_percent = 5.0
+		#电磁线圈：触发时每级造成的雷电伤害值。默认值：4
+		#Range: 0.0 ~ 1000.0
+		electromagnetic_coil_lightning_damage_per_level = 4.0
+		#电磁线圈：附魔的最大等级。默认值：2
+		#Range: 1 ~ 10
+		electromagnetic_coil_max_level = 2
+		#电磁线圈：经验等级乘数。默认值：2
+		#Range: 1 ~ 100
+		electromagnetic_coil_cost_multiplier = 2
+
+	[gun_enchantment.standard_ammo]
+		#标准弹药：附魔的最大等级。默认值：1
+		#Range: 1 ~ 10
+		standard_ammo_max_level = 1
+		#标准弹药：经验等级乘数。默认值：4
+		#Range: 1 ~ 100
+		standard_ammo_cost_multiplier = 4
+
+	[gun_enchantment.neurotoxin]
+		#神经毒素：附魔的最大等级。默认值：2
+		#Range: 1 ~ 10
+		neurotoxin_max_level = 2
+		#神经毒素：每级命中时施加缓慢/失明/中毒的概率。默认值：10%
+		#Range: 0.0 ~ 100.0
+		neurotoxin_trigger_chance_percent_per_level = 10.0
+		#神经毒素：施加状态效果的时长。默认值：100tick
+		#Range: 1 ~ 12000
+		neurotoxin_duration_ticks = 100
+		#神经毒素：经验等级乘数。默认值：4
+		#Range: 1 ~ 100
+		neurotoxin_cost_multiplier = 4
+
+	[gun_enchantment.chain_explosion]
+		#连锁爆破：附魔的最大等级。默认值：5
+		#Range: 1 ~ 10
+		chain_explosion_max_level = 5
+		#连锁爆破：基础触发概率。默认值：10%
+		#Range: 0.0 ~ 100.0
+		chain_explosion_base_chance_percent = 10.0
+		#连锁爆破：每级增加的触发概率。默认值：4%
+		#Range: 0.0 ~ 100.0
+		chain_explosion_chance_percent_per_level = 4.0
+		#连锁爆破：爆炸范围的最小值。默认值：0.5
+		#Range: 0.0 ~ 100.0
+		chain_explosion_radius_min = 0.5
+		#连锁爆破：爆炸范围每级的最大值。默认值：1
+		#Range: 0.0 ~ 100.0
+		chain_explosion_radius_scale_per_level = 1.0
+		#连锁爆破：爆炸伤害的最小值。默认值：5
+		#Range: 0.0 ~ 1000.0
+		chain_explosion_damage_base = 5.0
+		#连锁爆破：爆炸伤害每级的最大值。默认值：10
+		#Range: 0.0 ~ 1000.0
+		chain_explosion_damage_scale_per_level = 10.0
+		#连锁爆破：经验等级乘数。默认值：2
+		#Range: 1 ~ 100
+		chain_explosion_cost_multiplier = 2
+
+	[gun_enchantment.preemptive_strike]
+		#先发制人：附魔的最大等级。默认值：4
+		#Range: 1 ~ 10
+		preemptive_strike_max_level = 4
+		#先发制人：每级提升的伤害。默认值：25%
+		#Range: 0.0 ~ 1000.0
+		preemptive_strike_damage_percent_per_level = 25.0
+		#先发制人：经验等级乘数。默认值：2
+		#Range: 1 ~ 100
+		preemptive_strike_cost_multiplier = 2
+
+	[gun_enchantment.collector]
+		#收藏家：附魔的最大等级。默认值：3
+		#Range: 1 ~ 10
+		collector_max_level = 3
+		#收藏家：每级每个其他附魔增加的子弹伤害。默认值：5%
+		#Range: 0.0 ~ 100.0
+		collector_damage_percent_per_level = 5.0
+		#收藏家：经验等级乘数。默认值：4
+		#Range: 1 ~ 100
+		collector_cost_multiplier = 4
+
+	[gun_enchantment.explosion_expert]
+		#爆破专家：附魔的最大等级。默认值：3
+		#Range: 1 ~ 10
+		explosion_expert_max_level = 3
+		#爆破专家：经验等级乘数。默认值：4
+		#Range: 1 ~ 100
+		explosion_expert_cost_multiplier = 4
+
+	[gun_enchantment.life_leech]
+		#生命汲取：附魔的最大等级。默认值：2
+		#Range: 1 ~ 10
+		life_leech_max_level = 2
+		#生命汲取：击杀实体回复生命值的量。默认值：10%
+		#Range: 0.0 ~ 100.0
+		life_leech_heal_percent_per_level = 10.0
+		#生命汲取：经验等级乘数。默认值：4
+		#Range: 1 ~ 100
+		life_leech_cost_multiplier = 4
+
+	[gun_enchantment.sniper_elite]
+		#狙击精英：附魔的最大等级。默认值：4
+		#Range: 1 ~ 10
+		sniper_elite_max_level = 4
+		#狙击精英：每级增加的爆头伤害。默认值：25%
+		#Range: 0.0 ~ 1000.0
+		sniper_elite_headshot_percent_per_level = 25.0
+		#狙击精英：经验等级乘数。默认值：2
+		#Range: 1 ~ 100
+		sniper_elite_cost_multiplier = 2
+
+	[gun_enchantment.pandora_paradox]
+		#潘多拉悖论：附魔的最大等级。默认值：1
+		#Range: 1 ~ 10
+		pandora_paradox_max_level = 1
+		#潘多拉悖论：经验等级乘数。默认值：8
+		#Range: 1 ~ 100
+		pandora_paradox_cost_multiplier = 8
+
+	[gun_enchantment.smart_scope]
+		#智能瞄具：附魔的最大等级。默认值：1
+		#Range: 1 ~ 10
+		smart_scope_max_level = 1
+		#智能瞄具：准星射线检测实体的最大距离。默认值：200
+		#Range: 1.0 ~ 1000.0
+		smart_scope_max_distance = 200.0
+		#智能瞄具：经验等级乘数。默认值：4
+		#Range: 1 ~ 100
+		smart_scope_cost_multiplier = 4
+
+	[gun_enchantment.deep_learning]
+		#深度学习：附魔的最大等级。默认值：5
+		#Range: 1 ~ 10
+		deep_learning_max_level = 5
+		#深度学习：枪械每有 1 级经验等级，每级附魔增加的子弹伤害。默认值：0.2%
+		#Range: 0.0 ~ 100.0
+		deep_learning_damage_percent_per_gun_level_per_level = 0.2
+		#深度学习：经验等级乘数。默认值：1
+		#Range: 1 ~ 100
+		deep_learning_cost_multiplier = 1
+
+	[gun_enchantment.equalizer]
+		#众生平等：附魔的最大等级。默认值：3
+		#Range: 1 ~ 10
+		equalizer_max_level = 3
+		#众生平等：子弹命中实体时每级触发的概率。默认值：5%
+		#Range: 0.0 ~ 100.0
+		equalizer_trigger_chance_percent_per_level = 5.0
+		#众生平等：经验等级乘数。默认值：4
+		#Range: 1 ~ 100
+		equalizer_cost_multiplier = 4
+
+	[gun_enchantment.random]
+		#随机：附魔的最大等级。默认值：4
+		#Range: 1 ~ 10
+		random_max_level = 4
+		#随机：子弹命中实体时每级施加随机原版状态效果的概率。默认值：7%
+		#Range: 0.0 ~ 100.0
+		random_effect_chance_percent_per_level = 7.0
+		#随机：状态效果的持续时长。默认值：140tick
+		#Range: 1 ~ 12000
+		random_effect_duration_ticks = 140
+		#随机：经验等级乘数。默认值：2
+		#Range: 1 ~ 100
+		random_cost_multiplier = 2
+
+	[gun_enchantment.decapitation]
+		#枭首：附魔的最大等级。默认值：2
+		#Range: 1 ~ 10
+		decapitation_max_level = 2
+		#枭首：每级每次爆头累积的伤害加成。默认值：5%
+		#Range: 0.0 ~ 100.0
+		decapitation_headshot_bonus_percent_per_level = 5.0
+		#枭首：经验等级乘数。默认值：2
+		#Range: 1 ~ 100
+		decapitation_cost_multiplier = 2
+
+	[gun_enchantment.charge]
+		#冲锋：附魔的最大等级。默认值：5
+		#Range: 1 ~ 10
+		charge_max_level = 5
+		#冲锋：每级每有 1m/s 移动速度增加的子弹伤害。默认值：1%
+		#Range: 0.0 ~ 1000.0
+		charge_damage_percent_per_speed_per_level = 1.0
+		#冲锋：经验等级乘数。默认值：1
+		#Range: 1 ~ 100
+		charge_cost_multiplier = 1
+
+	[gun_enchantment.abyss_gazer]
+		#凝渊者：附魔的最大等级。默认值：1
+		#Range: 1 ~ 10
+		abyss_gazer_max_level = 1
+		#凝渊者：经验等级乘数。默认值：8
+		#Range: 1 ~ 100
+		abyss_gazer_cost_multiplier = 8
+
+	[gun_enchantment.double_shot]
+		#双发弹药：附魔的最大等级。默认值：5
+		#Range: 1 ~ 10
+		double_shot_max_level = 5
+		#双发弹药：每级触发额外子弹的概率。默认值：0.2
+		#Range: 0.0 ~ 1.0
+		double_shot_chance_per_level = 0.2
+		#双发弹药：经验等级乘数。默认值：2
+		#Range: 1 ~ 100
+		double_shot_cost_multiplier = 2
+
+	[gun_enchantment.focused_ammo]
+		#聚能弹药：附魔的最大等级。默认值：4
+		#Range: 1 ~ 10
+		focused_ammo_max_level = 4
+		#聚能弹药：每级每次穿透的伤害倍率增量。默认值：0.25
+		#Range: 0.0 ~ 10.0
+		focused_ammo_damage_mult_per_level = 0.25
+		#聚能弹药：经验等级乘数。默认值：2
+		#Range: 1 ~ 100
+		focused_ammo_cost_multiplier = 2
+
+	[gun_enchantment.arcana_eden]
+		#阿卡纳伊甸：附魔的最大等级。默认值：2
+		#Range: 1 ~ 10
+		arcana_eden_max_level = 2
+		#阿卡纳伊甸：经验等级乘数。默认值：4
+		#Range: 1 ~ 100
+		arcana_eden_cost_multiplier = 4
+
+	[gun_enchantment.patience]
+		#耐心：附魔的最大等级。默认值：3
+		#Range: 1 ~ 10
+		patience_max_level = 3
+		#耐心：未开火多少毫秒后开始累积伤害加成。默认值：500
+		#Range: 0 ~ 100000
+		patience_delay_ms = 500
+		#耐心：每级每 tick 增加的子弹伤害百分比。默认值：0.5%
+		#Range: 0.0 ~ 100.0
+		patience_damage_percent_per_tick_per_level = 0.5
+		#耐心：经验等级乘数。默认值：2
+		#Range: 1 ~ 100
+		patience_cost_multiplier = 2
+

@@ -1,0 +1,91 @@
+#Sets Player Max Stamina
+"Max Stamina" = 20.0
+#Per Tick
+Regen = 0.05
+#Per Tick
+"Regen When Moving" = 0.015
+
+["Actions/Events"]
+
+	["Actions/Events".Sprinting]
+		#Per Tick
+		"Set Cooldown Regen" = 35.0
+		#Per Tick
+		Cost = 0.08
+		#Enables Sprinting Cost
+		Enable = true
+
+		["Actions/Events".Sprinting."Smooth Cost"]
+			#Enables Smooth Sprinting Cost
+			Enable = true
+
+	["Actions/Events".Jump]
+		#Per Tick
+		"Set Cooldown Regen" = 60.0
+		#Per Jump
+		Cost = 0.55
+		#Enables Jump Cost
+		Enable = true
+
+	["Actions/Events".Swing]
+		#Per Swing
+		"Set Cooldown Regen" = 25.0
+		#Per Swing
+		Cost = 0.1
+		#Enables Swing Cost
+		Enable = true
+
+	["Actions/Events"."Bow Using"]
+		#Per Tick
+		"Set Cooldown Regen" = 9.0
+		#Per Tick
+		Cost = 0.08
+		#Enables Using Bow Cost
+		Enable = true
+
+	["Actions/Events".Damage]
+		#Every taking damage
+		"Set Cooldown Regen" = 35.0
+		#Every taking damage
+		Cost = 0.1
+		#Multipliers Cost Stamina
+		"Damage Multiplier" = true
+		#Enables Shield Block Attack Cost
+		Enable = true
+
+	["Actions/Events"."Shield Block Attack"]
+		#Every Block
+		"Set Cooldown Regen" = 31.0
+		#Every Block
+		Cost = 0.08
+		#Enables Shield Block Attack Cost
+		Enable = true
+
+[Mechanics]
+
+	[Mechanics.Tired]
+
+		[Mechanics.Tired.True]
+			#In percents
+			"Set at" = 0.0
+
+		[Mechanics.Tired.False]
+			#In percents
+			"Set at" = 30.0
+
+	[Mechanics."Smooth Regen"]
+		#Enables Smooth Regen
+		Enable = true
+
+[Hunger]
+	#In percents
+	"Set at" = 30.0
+
+[Vignette]
+	#Maximum transparency
+	"Max Alpha" = 0.9
+	#Stamina percent at (and below) which vignette is at max opacity
+	"Threshold Min" = 25.0
+	#Stamina percent below which vignette starts appearing
+	"Threshold Max" = 60.0
+

@@ -1,0 +1,6 @@
+#If true, logs a one-time INFO line the first time each Ragdollified render hook
+#actually fires (confirms the amputation-hiding mixins are still hitting a real
+#render call path). Leave this OFF normally -- only turn it on right after a
+#Ragdollified update to verify compatibility, then turn it back off.
+enableDebugLogging = false
+

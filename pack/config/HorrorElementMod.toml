@@ -1,0 +1,172 @@
+#Turn off all structures?
+DisableStructures = false
+#option for those who'd want to deactivate the atmosphere block.
+DisableAtmosphereBlock = false
+#Turn off all features?
+DisableFeatures = false
+#--------------------------------------------crucifiedsect Settings--------------------------------------------
+#Whether the structure will appear.
+crucifiedsectSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+crucifiedsectSpacing = 100
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+crucifiedsectSeparation = 60
+#Defines the list of biomes where this structure can spawn.
+crucifiedsectBiomes = ["plains", "sunflower_plains", "savanna", "windswept_savanna", "savanna_plateau"]
+#--------------------------------------------deathcamp Settings--------------------------------------------
+#Whether the structure will appear.
+deathcampSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+deathcampSpacing = 100
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+deathcampSeparation = 60
+#Defines the list of biomes where this structure can spawn.
+deathcampBiomes = ["plains", "sunflower_plains", "savanna", "windswept_savanna", "savanna_plateau"]
+#--------------------------------------------devastatedfarm Settings--------------------------------------------
+#Whether the structure will appear.
+devastatedfarmSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+devastatedfarmSpacing = 100
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+devastatedfarmSeparation = 60
+#Defines the list of biomes where this structure can spawn.
+devastatedfarmBiomes = ["plains", "sunflower_plains", "savanna", "windswept_savanna", "savanna_plateau"]
+#--------------------------------------------entitytower Settings--------------------------------------------
+#Whether the structure will appear.
+entitytowerSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+entitytowerSpacing = 100
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+entitytowerSeparation = 60
+#Defines the list of biomes where this structure can spawn.
+entitytowerBiomes = ["plains", "sunflower_plains", "savanna", "windswept_savanna", "savanna_plateau"]
+#--------------------------------------------forestbody Settings--------------------------------------------
+#Whether the structure will appear.
+forestbodySpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+forestbodySpacing = 100
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+forestbodySeparation = 60
+#Defines the list of biomes where this structure can spawn.
+forestbodyBiomes = ["plains", "sunflower_plains", "savanna", "windswept_savanna", "savanna_plateau"]
+#--------------------------------------------fortified_church Settings--------------------------------------------
+#Whether the structure will appear.
+fortified_churchSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+fortified_churchSpacing = 100
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+fortified_churchSeparation = 60
+#Defines the list of biomes where this structure can spawn.
+fortified_churchBiomes = ["plains", "sunflower_plains", "savanna", "windswept_savanna", "savanna_plateau"]
+#--------------------------------------------graveyard Settings--------------------------------------------
+#Whether the structure will appear.
+graveyardSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+graveyardSpacing = 100
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+graveyardSeparation = 60
+#Defines the list of biomes where this structure can spawn.
+graveyardBiomes = ["plains", "sunflower_plains", "savanna", "windswept_savanna", "savanna_plateau"]
+#--------------------------------------------herobrine_sanctum Settings--------------------------------------------
+#Whether the structure will appear.
+herobrine_sanctumSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+herobrine_sanctumSpacing = 100
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+herobrine_sanctumSeparation = 60
+#Defines the list of biomes where this structure can spawn.
+herobrine_sanctumBiomes = ["plains", "sunflower_plains", "savanna", "windswept_savanna", "savanna_plateau"]
+#--------------------------------------------laboratory Settings--------------------------------------------
+#Whether the structure will appear.
+laboratorySpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+laboratorySpacing = 100
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+laboratorySeparation = 60
+#Defines the list of biomes where this structure can spawn.
+laboratoryBiomes = ["plains", "sunflower_plains", "savanna", "windswept_savanna", "savanna_plateau"]
+#--------------------------------------------labyrinth Settings--------------------------------------------
+#Whether the structure will appear.
+labyrinthSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+labyrinthSpacing = 100
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+labyrinthSeparation = 60
+#Defines the list of biomes where this structure can spawn.
+labyrinthBiomes = ["plains", "sunflower_plains", "savanna", "windswept_savanna", "savanna_plateau"]
+#--------------------------------------------laststandhouse Settings--------------------------------------------
+#Whether the structure will appear.
+laststandhouseSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+laststandhouseSpacing = 100
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+laststandhouseSeparation = 60
+#Defines the list of biomes where this structure can spawn.
+laststandhouseBiomes = ["plains", "sunflower_plains", "savanna", "windswept_savanna", "savanna_plateau"]
+#--------------------------------------------militaryritual Settings--------------------------------------------
+#Whether the structure will appear.
+militaryritualSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+militaryritualSpacing = 100
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+militaryritualSeparation = 60
+#Defines the list of biomes where this structure can spawn.
+militaryritualBiomes = ["plains", "sunflower_plains", "savanna", "windswept_savanna", "savanna_plateau"]
+#--------------------------------------------psycho_house Settings--------------------------------------------
+#Whether the structure will appear.
+psycho_houseSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+psycho_houseSpacing = 100
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+psycho_houseSeparation = 60
+#Defines the list of biomes where this structure can spawn.
+psycho_houseBiomes = ["plains", "sunflower_plains", "savanna", "windswept_savanna", "savanna_plateau"]
+#--------------------------------------------villagertree Settings--------------------------------------------
+#Whether the structure will appear.
+villagertreeSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+villagertreeSpacing = 100
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+villagertreeSeparation = 60
+#Defines the list of biomes where this structure can spawn.
+villagertreeBiomes = ["plains", "sunflower_plains", "savanna", "windswept_savanna", "savanna_plateau"]
+#--------------------------------------------voodoo_sanctum Settings--------------------------------------------
+#Whether the structure will appear.
+voodoo_sanctumSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+voodoo_sanctumSpacing = 100
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+voodoo_sanctumSeparation = 60
+#Defines the list of biomes where this structure can spawn.
+voodoo_sanctumBiomes = ["plains", "sunflower_plains", "savanna", "windswept_savanna", "savanna_plateau"]
+
